@@ -16,5 +16,7 @@ Group members: Chris Chen, Michael Schwartz, Will Bekerman
   * 2017-05-30
   * 2017-05-31
   * 2017-06-02
-* Some songs on past Top Charts don’t show up when searched for using Spotify’s query feature. However, these songs comprise a very small portion of our entire dataset (<2%), so we decided to exclude them in our final dataset
+* Some songs on past Top Charts don’t show up when searched for using Spotify’s query feature. However, these songs comprise a very small portion of our entire dataset (<2%), so we decided to exclude them in our final dataset (these missing songs are listed at the bottom of the scraper_AudioFeatures.ipynb file)
+* There are duplicates in the CSV files (one row for each day a song is on the top charts), which could make the dataset hard to work with
+* For example, when we examine the top song for each week, if the same song is still at the top, this could potentially confound our model of the change over time of the top song
 
