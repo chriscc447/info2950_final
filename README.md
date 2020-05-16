@@ -10,6 +10,9 @@ Group members: Chris Chen, Michael Schwartz, Will Bekerman
 * __TopCharts_incomplete.csv__: scraped directly from Spotify's Top Charts website; does not contain audio features
 * __TopCharts_missing.csv__: first round of retrieving audio features; some songs may be missing audio features
 * __TopCharts_complete.csv__: complete dataset with all audio features
+* __TopCharts.csv__: complete dataset with all audio features and streams converted to int datatype
+* __TopCharts_clustered_artists.csv__: dataset with all unique artists, their median audio feature values, and their cluster assignments
+* __TopCharts_clustered_songs.csv__: dataset with all unique songs and their cluster assignments
 
 ## Some issues regarding the dataset:
 * Spotify doesn’t have Top Charts webpages for the following dates:
